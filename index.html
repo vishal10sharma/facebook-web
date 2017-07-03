@@ -24,7 +24,7 @@
    <header >
          <!----------------------------------------------------------------------------------nav bar-------------------->
   <nav class="navbar navbar-default" id="header">
-  <div class="container-fluid">
+  <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -170,6 +170,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   1.1hr</span>
 									 </div>
 										  <input placeholder="Write a comment..."style="width: 100%;margin-top: 15px;">
 										</div>
@@ -191,7 +192,7 @@
 								<span class="glyphicon glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like
 								<span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span>comment
 								<span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>share
-								<!--------------------------------------------------------------like show-------------------------------------------------------------------->
+			<!--------------------------------------------------------------like show-------------------------------------------------------------------->
 								<div> 
 								<span><img src="data:image/jpeg;base64,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"height="20" width="20"></span>
 								<span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlIe9JYAv6TULX57eAwA3rWFmcLB-zyYuNSiSka3ExI_ngQaj5"height="20" width="20"></span>
@@ -212,6 +213,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   5hr</span>
 									 </div>
 									 </div>
 										  
@@ -227,6 +229,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   4hr</span>
 									 </div>
 									 </div>
 									 <!-----------------------------------3rd commnt-------------------------------------->
@@ -241,6 +244,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   3hr</span>
 									 </div>
 								</div>	 
 									<!-----------------------------------4th commnt-------------------------------------->
@@ -255,6 +259,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   1hr</span>
 									 </div>
 								</div>
 						<!-----------------------------------5th commnt-------------------------------------->
@@ -269,6 +274,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   Just Now</span>
 									 </div>										  
 										  
 										  
@@ -305,7 +311,7 @@
 						  
 						  
 						   <div class="panel-footer">
-														   <!-----------------------------------1st commnt-------------------------------------->
+		       <!-----------------------------------1st commnt-------------------------------------->
 							   <div class="media">
 										  <div class="media-left">
 											<a href="#">
@@ -317,6 +323,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   8hr</span>
 									 </div>
 									 </div>
 										  
@@ -332,6 +339,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   7hr</span>
 									 </div>
 									 </div>
 									 <!-----------------------------------3rd commnt-------------------------------------->
@@ -346,6 +354,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   3hr</span>
 									 </div>
 								</div>	 
 									<!-----------------------------------4th commnt-------------------------------------->
@@ -360,6 +369,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   45sec</span>
 									 </div>
 								</div>
 						<!-----------------------------------5th commnt-------------------------------------->
@@ -374,6 +384,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   23sec</span>
 									 </div>										  
 										  
 										  
@@ -413,7 +424,7 @@
 	<!------------------------------------------------------------like shows--------------------------------------------------------->
 							  
 							   <div class="panel-footer">
-							   							   <!-----------------------------------1st commnt-------------------------------------->
+							   <!-----------------------------------1st commnt-------------------------------------->
 							   <div class="media">
 										  <div class="media-left">
 											<a href="#">
@@ -425,6 +436,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   11hr</span>
 									 </div>
 									 </div>
 										  
@@ -440,6 +452,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   10.1hr</span>
 									 </div>
 									 </div>
 									 <!-----------------------------------3rd commnt-------------------------------------->
@@ -454,6 +467,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   6hr</span>
 									 </div>
 								</div>	 
 									<!-----------------------------------4th commnt-------------------------------------->
@@ -468,6 +482,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   35min</span>
 									 </div>
 								</div>
 						<!-----------------------------------5th commnt-------------------------------------->
@@ -482,6 +497,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   5sec</span>
 									 </div>										  
 										  
 										  
@@ -525,7 +541,7 @@
 	<!------------------------------------------------------------like shows--------------------------------------------------------->
 							  
 							   <div class="panel-footer">
-							   							   <!-----------------------------------1st commnt-------------------------------------->
+				<!-----------------------------------1st commnt-------------------------------------->
 							   <div class="media">
 										  <div class="media-left">
 											<a href="#">
@@ -537,6 +553,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   9hr</span>
 									 </div>
 									 </div>
 										  
@@ -552,6 +569,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   2hr</span>
 									 </div>
 									 </div>
 									 <!-----------------------------------3rd commnt-------------------------------------->
@@ -566,6 +584,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   50min</span>
 									 </div>
 								</div>	 
 									<!-----------------------------------4th commnt-------------------------------------->
@@ -580,6 +599,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   35min</span>
 									 </div>
 								</div>
 						<!-----------------------------------5th commnt-------------------------------------->
@@ -594,6 +614,7 @@
 										<small> 
 												<span class= "like"> <a href="#">Like </a></span> <span> <a href="#">Reply </a></span> 
 										</small>
+										<span id= "time">   Just Now</span>
 									 </div>										  
 										  
 										  
@@ -624,7 +645,8 @@
 					<div class="panel panel-default">
    
     <div class="panel-body">
-    <div class="panel-heading"><span id="trnd">Trending </span></div>
+   <!-------- <div class="panel-heading"><span id="trnd">Trending </span> <span id= "icon"></div>
+	
      <div class="bott-marg"><p><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> <a href="#"  class="font-size">Aadhaar</a><br><span class="span-adj">If you have still not linked your Aadhaar number with your PAN number, we take you through the process. Follow the simple steps to do the linking and save yourself from any problems in future.</span></p></div>
      
      <div class="bott-marg" ><p><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> <a href="#"  class="font-size"> Shah Rukh Khan</a><br><span class="span-adj">Shah Rukh Khan reveals It Happened One Night with Sidharth Malhotra, Sonakshi Sinha. See first look</span></p></div>
@@ -638,7 +660,37 @@
      
     </div>
     
+    </div>-------->
+	
+	
+	
+	<div id="sidebar">
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#top" aria-controls="home" role="tab" data-toggle="tab">Top Trends</a></li>
+        <li role="presentation"><a href="#politics" aria-controls="profile" role="tab" data-toggle="tab">Politics</a></li>
+        <li role="presentation"><a href="#sports" aria-controls="messages" role="tab" data-toggle="tab">Sport</a></li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="top">1
+<p><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> <a href="#"  class="font-size">Aadhaar</a><br><span class="span-adj">If you have still not linked your Aadhaar number with your PAN number, we take you through the process. Follow the simple steps to do the linking and save yourself from any problems in future.</span></p>		
+<p><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> <a href="#"  class="font-size"> Shah Rukh Khan</a><br><span class="span-adj">Shah Rukh Khan reveals It Happened One Night with Sidharth Malhotra, Sonakshi Sinha. See first look</span></p>		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		</div>
+        
+		<!---------------------------------------------------top trends--------------------------------------------------------------------------->
+		<div role="tabpanel" class="tab-pane" id="politics">2</div>
+        <div role="tabpanel" class="tab-pane" id="sports">3</div>
     </div>
+</div>
 	<!--------------------------------------------------------------2 panel-------------------------------------------------->
 	
 	 <div class="panel panel-default">
