@@ -131,7 +131,11 @@ color: rgb(218, 222, 234);
 	}
 .nav-tabs>li>a{
 	margin-left:30px;
-	
+	padding-left:-20;
+}
+
+.tab-pane{
+	height:50px;
 }
 
 
